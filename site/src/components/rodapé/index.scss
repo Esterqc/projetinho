@@ -9,5 +9,66 @@
         
     }
 
+    .Logo-Rodape{
+        display: flex;
+        flex-direction: column;
+        margin: 20vh 20vh 50vh;
+        height: 18vh;
+        width: 18vh;
+    }
+
+    .Direcionar-Rodape{
+        color: #ffffff;
+        display: flex;
+        gap: -1vh;
+        flex-direction: column;
+        margin: 10vh 30vh -50vh  60vh;
+        
+    }
+
+    .Home{
+        font-family: Light;
+        margin-top: -3vh;
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+
+    .Quem-Somos{
+        font-family: Light;
+        margin-top: -1vh;
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+
+    .Nossos-Servicos{
+        font-family: Light;
+        margin-top: -1vh;
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+
+    .Icones{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: -20vh 170vh;
+        height: 5vh;
+        width: 5vh;
+
+
+    }
+
+    .Linha{
+        width: 100vh;
+    }
+
+    .Informacoes{
+        display: flex;
+        flex-direction: column;
+        font-family:Light;
+        color: #ffffff;
+
+    }
+    
+
 
 }

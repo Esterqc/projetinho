@@ -1,123 +1,122 @@
 
-
-
-
+.Page-User-Login{
     
-   
-
-    .faixa{
-        display: flex;
-        flex-direction: row;
-        background-color:#132030;
-        height:13vh;
-        
-       
-    }
-
-   
-   
-   .logo{
-    margin-left: 45em;
-   margin-top: -0em;
-   
-   
-   }
-
-   .botao-painel{
-    background-color: #E8F1F2;
-    border-radius: 5px;
-    padding: 0.5em 2.5em;
-    margin-left: 30em;
-  
-   }
-  
-   .botao{
-     margin-top: -5em;
-    margin-left: 70em;
-   }
-
- 
-   .fundo-login{ 
+    
+  .faixa{
     display: flex;
-    justify-content: center;
-    background-color: #E8F1F2;
-    min-height: 100vh;
+    flex-direction: row;
+    background-color:#132030;
+    height:13vh;
     
-   }
-
-   .login{
-    display: flex;
-    flex-direction: column;
-    
-    margin-top: 5em;
-    background-color:#ffff;
-    border: 1px solid #B6B6B6;
-    width: 360px;
-    height: 30em;
-    border-radius: 0.5em;
-    margin-right: 15em;
-    margin-left: 13em;
-   }
-
-   .info-login{
-    margin-top: 2em;
-    margin-left: 2em;
-   }
-
-   .informacao{
-    margin-top: -2em;
-    margin-left: 2em;
    
-   
-   }
-
-   .infoo{
-   
-    margin-left: 1em;
-   }
-
-   .inputs{
-    margin-top: 1em;
-    margin-right: 27px;
-    margin-left: 10px;
 }
 
-   
+
+
+.logo{
+margin-left: 45em;
+margin-top: -0em;
+
+
+}
+
+.botao-painel{
+background-color: #E8F1F2;
+border-radius: 5px;
+padding: 0.5em 2.5em;
+margin-left: 30em;
+
+}
+
+.botao{
+ margin-top: -5em;
+margin-left: 70em;
+}
+
+
+.fundo-login{ 
+display: flex;
+justify-content: center;
+background-color: #E8F1F2;
+min-height: 100vh;
+
+}
+
+.login{
+display: flex;
+flex-direction: column;
+
+margin-top: 5em;
+background-color:#ffff;
+border: 1px solid #B6B6B6;
+width: 360px;
+height: 30em;
+border-radius: 0.5em;
+margin-right: 15em;
+margin-left: 13em;
+}
+
+.info-login{
+margin-top: 2em;
+margin-left: 2em;
+}
+
+.informacao{
+margin-top: -2em;
+margin-left: 2em;
+
+
+}
+
+.infoo{
+
+margin-left: 1em;
+}
+
+.inputs{
+margin-top: 1em;
+margin-right: 27px;
+margin-left: 10px;
+}
+
+
 .inputt{
-    display: flex;
-    flex-direction: column;   
-    margin-top: 1.5em;
-    margin-left: 10px;
+display: flex;
+flex-direction: column;   
+margin-top: 1.5em;
+margin-left: 10px;
 }
 
 *input{
-    width: 20em;
-    height: 3.2em;
-    border: 1px solid #B6B6B6;  
-    border-radius: 1.8em;
+width: 20em;
+height: 3.2em;
+border: 1px solid #B6B6B6;  
+border-radius: 1.8em;
 }
 
 
 .linha{
-    width: 255px;
-    border: 1px solid #c5c4c4;
-    margin-top: 3em;
+width: 255px;
+border: 1px solid #c5c4c4;
+margin-top: 3em;
 }
 
 .info{
-    font-size: 12px;
-   
+font-size: 12px;
+
 }
 
 
 .botao-entra{
-    background-color: #132030;
-    border: none;
-    width: 20em;
-    height: 3em;
-   color: #FFFFFF;
-   margin-top: 2em;
-   border-radius: 1em;
-   margin-left: 10px;
+background-color: #132030;
+border: none;
+width: 20em;
+height: 3em;
+color: #FFFFFF;
+margin-top: 2em;
+border-radius: 1em;
+margin-left: 10px;
 }
 
+
+}

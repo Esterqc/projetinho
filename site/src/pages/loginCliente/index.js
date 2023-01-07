@@ -4,7 +4,7 @@ import Logo from '../../assets/logo.png'
 
 export default function LoginCliente() {
     return (
-        <main className="page-user-login">
+        <main className="Page-User-Login">
           <header>
           <div className= "faixa">
           <img  className='logo' src={Logo} alt='logo'/>
