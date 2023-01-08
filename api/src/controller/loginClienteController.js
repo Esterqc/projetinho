@@ -9,7 +9,7 @@ server.post('/api/login', async (req,resp) =>{
 
         const r = await login(email,senha);
         if(!r){
-            throw new Error('email ou senha erradas');
+            throw new Error('E-mail Ou Senha Invalidos');
         }
         resp.send({
             id: r.id,
@@ -17,7 +17,7 @@ server.post('/api/login', async (req,resp) =>{
         })
     }
     catch (err){
-        resp.status(400).send({
+        resp.status(401).send({
             erro:err.message
         })
     }

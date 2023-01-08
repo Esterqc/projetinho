@@ -2,36 +2,7 @@
 .Page-User-Login{
     
     
-  .faixa{
-    display: flex;
-    flex-direction: row;
-    background-color:#132030;
-    height:13vh;
-    
-   
-}
-
-
-
-.logo{
-margin-left: 45em;
-margin-top: -0em;
-
-
-}
-
-.botao-painel{
-background-color: #E8F1F2;
-border-radius: 5px;
-padding: 0.5em 2.5em;
-margin-left: 30em;
-
-}
-
-.botao{
- margin-top: -5em;
-margin-left: 70em;
-}
+  
 
 
 .fundo-login{ 
@@ -116,6 +87,15 @@ color: #FFFFFF;
 margin-top: 2em;
 border-radius: 1em;
 margin-left: 10px;
+}
+
+.erro{
+ 
+  font-size: 15px;
+  color: #ff0000;
+  margin-top: 1em;
+  align-items: center;
+  margin-left: 3em;
 }
 
 

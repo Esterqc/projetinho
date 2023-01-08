@@ -1,4 +1,5 @@
-import 'dotenv/config'
+
+import 'dotenv/config';
 
 import loginClienteController from './controller/loginClienteController.js';
 
@@ -12,4 +13,4 @@ server.use(express.json());
 server.use(loginClienteController);
 
 const PORT = process.env.PORT;
-server.listen(PORT,() => console.log("API subiu na porta " + PORT));
+server.listen(PORT, () => console.log("API subiu na porta " + PORT));
