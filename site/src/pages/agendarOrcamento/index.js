@@ -36,7 +36,7 @@ export default function AgendarOrcamento() {
   const FazerOrcamentos = async _ =>{
     try{
         const r = await Orçamento(usuario.id,nome,email,cep,numero,complemento,logradouro,bairro,cidade,estado,telefone,telefone2);
-        
+        alert('informações salva com sucesso,clique em continuar para ir para próxima etapa')
 
         setTimeout(()=>{
             navigate('/AgendarOrcamento')
@@ -47,6 +47,22 @@ export default function AgendarOrcamento() {
         
     }
 };
+
+
+const continuar = async _ =>{
+     try{
+         const r = await Orçamento(usuario.id,nome,email,cep,numero,complemento,logradouro,bairro,cidade,estado,telefone,telefone2);
+         
+ 
+         setTimeout(()=>{
+             navigate('/TelaOrcamento')
+         },4000 )
+ 
+     } catch (err) {
+         alert(err.response.data.erro);
+         
+     }
+ };
 
  
 
@@ -136,7 +152,7 @@ export default function AgendarOrcamento() {
 
                  <div className='avanca'>
             <button className = 'entra'  onClick={FazerOrcamentos} >  Salvar    </button>
-            <button className = 'conti'  onClick={() => navigate('/TelaOrcamento')} >  continuar   ❯</button>
+            <button className = 'conti'  onClick={continuar} >  continuar   ❯</button>
             </div>
 
               
