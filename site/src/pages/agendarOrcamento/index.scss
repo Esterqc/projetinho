@@ -1,0 +1,321 @@
+.pager-orcamento{
+
+
+
+.faixa-azul{
+display: flex;
+justify-content: center;
+background-color: #E8F1F2;
+min-height: 145vh;
+
+}
+
+.informação{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.pp{
+  margin-right: 77em;
+   margin-top: -5em; 
+   float: right;
+   margin-left:3em;
+   
+}
+
+.p {
+  color: #000000;
+font-size: 20px;
+}
+
+.texto{
+  margin-left: 3em;
+   
+}
+
+.textoss{
+  font-size: 40px;
+  color: #122030;
+  margin-top: 4em; 
+ 
+}
+
+.texto1{
+    margin-top: -1em;
+    font-size: 26px;
+    color: #B6B6B6;
+}
+
+
+.input{
+  display: flex;
+flex-wrap: wrap;
+justify-content:space-between ;
+ 
+}
+
+.nome{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 61em;
+  margin-top: 21em;
+  width: 29.5em;
+  
+  
+ 
+}
+
+.p-input{
+  height: 43px;
+  border: #B6B6B6;
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}
+
+.p-nome{
+font-size: 23px;
+color:#737373;
+}
+
+.email-p{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 30em;
+  margin-top: 21em;
+  width: 29.5em;
+}
+
+.mail{
+  font-size: 23px;
+color:#737373;
+}
+
+.input-email{
+  height: 43px;
+  border: #B6B6B6;
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}
+
+.igual{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 67.4em;
+  margin-top: 28em;
+  width: 23em;
+}
+
+.input-cep{
+  height: 43px;
+  border: #B6B6B6;
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}
+
+.igu{
+  font-size: 23px;
+  color:#737373;
+}
+
+.nume{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 58.6em;
+  margin-top: 28em;
+  width: 7em;
+}
+
+.input-numero{
+  height: 43px;
+  border: #B6B6B6;
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}
+
+.numero{
+  font-size: 23px;
+  color:#737373;
+}
+
+.compl{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 30em;
+  margin-top: 28em;
+  width: 27em;
+}
+
+.input-complemento{
+  height: 43px;
+  border: #B6B6B6;
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}
+
+.complemento{
+  font-size: 23px;
+  color:#737373;
+}
+
+.logra{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 61em;
+  margin-top: 34em;
+  width: 29.5em;
+}
+
+.input-logradouro{
+  height: 43px;
+  border: #B6B6B6;
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}
+
+.logradouro{
+  font-size: 23px;
+  color:#737373; 
+}
+
+.bair{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 30em;
+  margin-top: 34em;
+  width: 29.5em;
+}
+
+.input-bairro{
+  height: 43px;
+  border: #B6B6B6;
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}
+
+.bairro{
+  font-size: 23px;
+  color:#737373; 
+}
+
+.cida{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 61em;
+  margin-top: 40em;
+  width: 29.5em;
+}
+
+.input-cidade{
+  height: 43px;
+  border: #B6B6B6;
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}
+
+.cidade{
+  font-size: 23px;
+  color:#737373; 
+}
+
+.U{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 30em;
+  margin-top: 40em;
+  width: 29.5em;
+}
+
+.input-UF{
+  height: 43px;
+  border: #B6B6B6;
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}
+
+.UF{
+  font-size: 23px;
+  color:#737373; 
+}
+
+.Tele{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 61em;
+  margin-top: 46em;
+  width: 29.5em;
+}
+
+.input-Telefone{
+  height: 43px;
+  border: #B6B6B6;
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}
+
+.Tele input::placeholder{
+  font-size: 20px;
+  color: #000000;
+}
+
+.Telefone{
+  font-size: 18px;
+  color:#737373; 
+}
+
+.Celu{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 30em;
+  margin-top: 46em;
+  width: 29.5em;
+}
+
+.input-Celular{
+  height: 43px;
+  border: #B6B6B6;
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}
+
+.Celu input::placeholder{
+  font-size: 20px;
+  color: #000000;
+}
+
+.Celular{
+  font-size: 18px;
+  color:#737373; 
+}
+
+.avanca{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 52em;
+  margin-top: 58em;
+}
+
+.entra{
+background-color: #132030;
+border: none;
+width: 16em;
+height: 4em;
+color: #FFFFFF;
+}
+
+
+
+
+}
