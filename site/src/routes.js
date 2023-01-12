@@ -12,6 +12,7 @@ import LoginCliente from './pages/loginCliente';
 import ServicosqRealizamos from './pages/servicosqRealizamos';
 import TelaAdminstrador from './pages/telaAdministrador';
 import TelaCadastro from './pages/telaCadastro';
+import OrçamentoParte2 from './pages/OrcamentoParte2';
 
 
 
@@ -32,7 +33,8 @@ const Rotas = () => {
             <Route path='/ServicosqRealizamos' element={<ServicosqRealizamos/>}/>
             <Route path='TelaAdministrador' element={<TelaAdminstrador/>}/>
             <Route path='/TelaCadastro' element={<TelaCadastro/>}/>
-
+            <Route path='/TelaCadastro' element={<TelaCadastro/>}/>
+            <Route path='/OrçamentoParte2' element={<OrçamentoParte2/>}/>
            
 
 

@@ -1,8 +1,11 @@
+
 .pager-orcamento{
 
 
 
-.faixa-azul{
+
+
+  .faixa-azul{
 display: flex;
 justify-content: center;
 background-color: #E8F1F2;
@@ -303,7 +306,7 @@ color:#737373;
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 52em;
+  
   margin-top: 58em;
 }
 
@@ -313,7 +316,21 @@ border: none;
 width: 16em;
 height: 4em;
 color: #FFFFFF;
+margin-right: 40em;
+
 }
+
+.conti{
+  background-color: #132030;
+border: none;
+width: 16em;
+height: 4em;
+color: #FFFFFF;
+margin-left: 20em;
+margin-top: -4em;
+}
+
+
 
 
 
