@@ -1,25 +1,49 @@
+
+
+
+CREATE DATABASE JLC;
 USE JLC;
+show tables;
 
-insert into  tb_usuario (nm_usuario,ds_email,nr_telefone,ds_senha)
-		values ("Ester Queiroz","esterq292@gmail.com","1195919-5154","123456789");
-        
-        insert into  tb_usuario (nm_usuario,ds_email,nr_telefone,ds_senha)
-		values ("Maria Clara","Mabentarosa@gmail.com","1199877-5654","123456789");
-        
-select * from tb_usuario;
 
-insert into  tb_login(id_usuario,ds_email, ds_senha )
-            value("1","esterq292@gmail.com","123456789");
-            
-            insert into  tb_login(id_usuario,ds_email, ds_senha )
-            value("2","Mabentarosa@gmail.com","123456789");
-            
-	select * from tb_login;
-    
-    select 
-    id_usuario      			id,
-    ds_email	     			email,
-    ds_senha		            senha
-    from tb_login
-    where 	ds_email    	       = 'esterq292@gmail.com'
-    and ds_senha                   = 123456789
+create table tb_usuario(
+  id_usuario         int primary key auto_increment,
+  nm_usuario          varchar(100),
+  ds_email            varchar(100),
+  nr_telefone         varchar(100),
+  ds_senha            varchar(100)
+);
+
+create table tb_login(
+   id_login         int primary key auto_increment,
+   id_usuario        int,
+   ds_email            varchar(100),
+   ds_senha            varchar(100)
+);
+
+
+create table tb_orcamento(
+   id_orcamento         int primary key auto_increment,
+     id_usuario         int,
+   nm_usuario            varchar(100),
+   ds_email              varchar(100),
+   ds_cep                varchar(100),
+   nr_casa               varchar(100),
+   ds_complemento        varchar(100),
+   ds_logradouro         varchar(100),
+   ds_bairro             varchar(100),
+   ds_cidade             varchar(100),
+   ds_estado             varchar(100),
+   nr_telefone           varchar(100),
+   nr_telefone2          varchar(100)
+);
+
+create table tb_depoimento(
+id_depoimento int primary key auto_increment,
+id_usuario int,
+vl_depoimento varchar(100),
+ds_comentario varchar(100),
+dt_comentario datetime,
+foreign key (id_usuario) references tb_usuario(id_usuario)
+);
+
