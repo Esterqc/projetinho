@@ -9,3 +9,4 @@ export async function loginCliente(email,senha){
     const r = await api.post('/api/login',{email,senha})
     return r.data;
 }
+

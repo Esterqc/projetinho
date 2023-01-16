@@ -47,7 +47,7 @@ export default function Home() {
              <p className='seletores'>PINTURA</p>
           </div>
 
-          <div className='Imagens'>
+          <div className='Imagens-Container-2'>
           <img src={Img1} alt='imagem1'/>
           <img src={Img2} alt='imagem2'/>
           <img src={Img3} alt='imagem3'/>
@@ -69,28 +69,26 @@ export default function Home() {
 
         </div>
 
-        <div className='Container4'>
 
-      
-<p className='Paragrafo1'>Depoimentos dos Clientes
-</p> 
+<div className='Container4'>
+
+        <p className='Paragrafo1'>Depoimentos dos Clientes
+        </p> 
     
     
-<div className='Imagens-Depoimentos-dos-Clientes'>
+   <div className='Imagens-Depoimentos-dos-Clientes'>
 
-
-
-<img src={Comentarios} alt='Comentarios'/>
-<img src={Comentarios} alt='Comentarios'/>
-<img src={Comentarios} alt='Comentarios'/>
-<img src={Comentarios} alt='Comentarios'/>
-<img src={Comentarios} alt='Comentarios'/>
+     <img src={Comentarios} alt='Comentarios'/>
+     <img src={Comentarios} alt='Comentarios'/>
+     <img src={Comentarios} alt='Comentarios'/>
+     <img src={Comentarios} alt='Comentarios'/>
+     <img src={Comentarios} alt='Comentarios'/>
 
 </div>
 
- <div className='Mas-Depoimentos'>
- <button className='Mas-Depoimentos'>Mas Depoimentos...</button>
- </div>
+       <div className='Mas-Depoimentos'>
+          <button className='Mas-Depoimentos'>Mas Depoimentos...</button>
+      </div>
 
 
 </div>

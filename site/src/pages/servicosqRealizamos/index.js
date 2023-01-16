@@ -1,8 +1,13 @@
 
 import './index.scss'
 
+import Cabecalho2 from '../../components/faixa2'
+
 export default function ServicosqRealizamos() {
     return(
-        <div>SERVIÇOS QUE REALIZAMOS</div>
+        <div>
+            <Cabecalho2/>
+            SERVIÇOS QUE REALIZAMOS
+            </div>
     )
 }

@@ -2,6 +2,7 @@
 import './index.scss'
 import Logo from '../../assets/logo.png'
 
+import { Link } from 'react-router-dom';
 import Cabecalho2 from '../../components/faixa2'
 import {useNavigate} from "react-router-dom";
 import storage from   'local-storage';
@@ -78,7 +79,7 @@ useEffect(()=>{
                 <div className='linha'>
                    </div>
                    <div  className= 'info' onClick={() => navigate('/TelaCadastro')}>
-                    <h3>Você ainda não tem uma conta?  Cadastre </h3>
+                    <h3>Você ainda não tem uma conta?  <Link to='/TelaCadastro'>Cadastre-se</Link></h3>
                     <p className='erro'>{erro}</p>
                    </div>
                   

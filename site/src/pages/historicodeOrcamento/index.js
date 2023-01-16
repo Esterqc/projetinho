@@ -1,9 +1,15 @@
 
 import './index.scss'
 
+import Cabecalho2 from '../../components/faixa2'
+
+
 export default function HistoricodeOrcamento() {
     return(
-        <div>TELA HISTORICO DE ORCAMENTO</div>
+        <div>
+            <Cabecalho2/>
+            TELA HISTORICO DE ORCAMENTO
+            </div>
     )
 }
 

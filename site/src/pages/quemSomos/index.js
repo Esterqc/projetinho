@@ -1,8 +1,14 @@
 
 import './index.scss'
 
+import Cabecalho2 from '../../components/faixa2'
+
+
 export default function QuemSomos() {
     return(
-        <div>TELA QUEM SOMOS</div>
+        <div>
+            <Cabecalho2/>
+            TELA QUEM SOMOS
+            </div>
     )
 }

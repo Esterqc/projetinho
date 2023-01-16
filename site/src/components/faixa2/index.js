@@ -20,7 +20,7 @@ export default function Cabecalho() {
  <img  className='logo' src={Logo} alt='logo' onClick={() => navigate('/')}/>
 
  <div className="botao">
-    <button className="botao-painel" onClick={() => navigate('/TelaCadastro')}>Voltar</button>
+    <button className="botao-painel" onClick={() => navigate('/')}>Voltar</button>
  </div>
 </div>
 
