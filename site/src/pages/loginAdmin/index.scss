@@ -15,13 +15,60 @@ flex-direction: row;
         width: 70vh;
  }
 
- .Container-Imagem2{
+ .Container-Login{
     display: flex;
-    flex-direction: row-reverse;
- background-color: #E8F1F2;
- margin: 30vh;
- height: 10vh;
- width: 10vh;
+    flex-direction: column;
+    align-items: center;
+ background-color: #235676;
+margin: 10vh 100vh 30vh 90vh;
+margin-top: -50vh;
+color: #ffffff;
+ height: 60vh;
+ width: 60vh;
+
+ }
+
+ .Paragrafo-Login{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ .Paragrafo-Email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .Input-Email{
+  height: 3vh;
+  width: 30vh;
+    
+ }
+
+ .Input-Senha{
+    height: 3vh;
+    width: 30vh;  
+ }
+
+ .Entrar{
+    margin: 5vh;
+    height: 4vh;
+    width: 15vh;
+
+ }
+
+ .Linha{
+   
+    width: 30vh;
+    margin-top: -2vh;
+ }
+
+ .Cancelar{
+    height: 5vh;
+    width: 25vh;
  }
 
 
