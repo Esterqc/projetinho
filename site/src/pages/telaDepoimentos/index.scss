@@ -1,0 +1,32 @@
+
+
+.Page-Depoimentos{
+ background-color: #E8F1F2;
+ height: 110vh;
+    
+ 
+ .Deixe-Seu-Depoimento{
+        color: #B6B6B6;
+
+    }
+
+    .Caixa-Nome{
+        height: 10vh;
+        width: 200vh;
+    }
+
+    .Container-Positivo-Negativo{
+        gap: 3vh;
+    }
+
+    .Container-Positivo-Negativo{
+        display: flex;
+        flex-direction: row;
+        margin: 3vh;
+    }
+
+    .Caixa-Depoimento{
+        height: 15vh;
+        width: 200vh;
+    }
+}

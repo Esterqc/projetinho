@@ -6,6 +6,7 @@ import AgendarOrcamento from './pages/agendarOrcamento';
 import FotosEtrabalhos from './pages/fotosEtrabalhos';
 import HistoricodeOrcamento from './pages/historicodeOrcamento';
 import ListarAgendamento from './pages/listarAgendamento';
+import TelaDepoimentos from './pages/telaDepoimentos';
 import LoginAdmin from './pages/loginAdmin';
 import QuemSomos from './pages/quemSomos';
 import LoginCliente from './pages/loginCliente';
@@ -27,6 +28,7 @@ const Rotas = () => {
             <Route path='/FotosEtrabalhos' element={<FotosEtrabalhos/>}/>
             <Route path='/HistoricodeOrcamento' element={<HistoricodeOrcamento/>}/>
             <Route path='/ListarAgendamento' element={<ListarAgendamento/>}/>
+            <Route path='/TelaDepoimentos' element={<TelaDepoimentos/>}/>
             <Route path='/LoginAdmin' element={<LoginAdmin/>}/>
             <Route path='QuemSomos' element={<QuemSomos/>}/>
             <Route path= '/LoginCliente' element={<LoginCliente/>}/>
