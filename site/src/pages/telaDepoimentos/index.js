@@ -31,6 +31,7 @@ export default function TelaDepoimentos() {
    
                <input className='Caixa-Depoimento'></input>
 
+              <button className='Botao'>ENVIAR DEPOIMENTO</button>
 
 
 

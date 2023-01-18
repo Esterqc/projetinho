@@ -28,7 +28,7 @@ try{
         senha: senha
     });
    
-        navigate('/TelaAdministrador');
+        navigate('/TelaDepoimentos');
     
 
   

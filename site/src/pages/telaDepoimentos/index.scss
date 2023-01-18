@@ -5,17 +5,26 @@
  height: 110vh;
     
  
+
+ .Informe-Nome{
+    margin: 2vh;
+ }
+
+
  .Deixe-Seu-Depoimento{
+       margin: 2vh;
         color: #B6B6B6;
 
     }
 
     .Caixa-Nome{
+         margin: 2vh;
         height: 10vh;
         width: 200vh;
     }
 
     .Container-Positivo-Negativo{
+        margin: 2vh;
         gap: 3vh;
     }
 
@@ -26,7 +35,26 @@
     }
 
     .Caixa-Depoimento{
+         margin: 2vh;
         height: 15vh;
         width: 200vh;
     }
+
+    .Botao{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        background-color: #122030;
+        width: 20vh;
+        height: 5vh;
+        margin: 10vh 90vh;
+        color: #ffffff;
+
+    }
+
+        .Botao{
+            cursor: pointer;
+      transform: scale(1.1);
+   }
+        
 }
