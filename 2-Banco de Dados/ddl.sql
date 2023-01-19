@@ -40,3 +40,50 @@ insert into  tb_login(id_usuario,ds_email, ds_senha )
     insert into tb_depoimento(id_usuario, vl_depoimento, ds_comentario, dt_comentario)
     values( 1,'Maria', 'Maria','2005-11-22' );
     
+/* ALTERAR ORCAMENTO */
+    
+    UPDATE TB_ORCAMENTO
+     SET NM_USUARIO = 'Maria Clara',
+     DS_EMAIL = 'Mabentarosa@gmail.com',
+     DS_CEP = '048.90.480',
+     NR_CASA = '82',
+     DS_COMPLEMENTO = 'Final da rua',
+     DS_LOGRADOURO = 'São Paulo',
+     DS_BAIRRO = 'Parelheiros',
+     DS_CIDADE = 'São Paulo',
+     DS_ESTADO = 'São Paulo',
+     NR_TELEFONE = ' 11 932734267',
+     NR_TELEFONE2 = ' 11 933649867'
+WHERE ID_ORCAMENTO = 1;
+
+/* DELETAR ORCAMENTO */
+
+DELETE FROM TB_ORCAMENTO
+   WHERE ID_ORCAMENTO = 1;
+
+   /* CONSULTAR TODOS ORCAMENTOS */
+   
+    SELECT NM_USUARIO  NOME,
+           DS_EMAIL EMAIL,
+           DS_CEP  CEP,
+           NR_CASA CASA,
+           DS_COMPLEMENTO  COMPLEMENTO,
+           DS_LOGRADOURO LOGRADOURO,
+           DS_BAIRRO  BAIRRO,
+           DS_CIDADE  CIDADE,
+           DS_ESTADO  ESTADO,
+           NR_TELEFONE TELEFONE,
+           NR_TELEFONE2  TELEFONE2
+     FROM TB_ORCAMENTO; 
+
+          
+   
+   
+   
+   
+
+   
+   
+
+
+
